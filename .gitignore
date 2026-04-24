@@ -1,0 +1,32 @@
+# CMake / MSVC
+build/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.dir/
+*.vcxproj*
+*.sln
+*.suo
+*.user
+*.userosscache
+*.ilk
+*.pdb
+*.obj
+*.tlog
+*.log
+_deps/
+
+# JUCE / tooling
+.juce/
+
+# Node (UI kit)
+ui_kits/lardossa-vst/node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Font archives (keep licensed files local; UI uses committed woff2 under src/fonts/)
+*.zip
